@@ -31,11 +31,18 @@ struct LaunchView: View {
                     withAnimation(.linear(duration: 0.7)) {
                         transition.toggle()
                     }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                        isShowStartView = true
+                    })
                 })
             }
         }
+        .fullScreenCover(isPresented: $isShowStartView, content: {
+            StartView()
+        })
     }
     
+    @State private var isShowStartView = false
     @State private var animation = true
     @State private var transition = true
     
@@ -47,6 +54,9 @@ struct LaunchView: View {
                     .stroke(LinearGradient(colors: [.black, .clear], startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 4)
                     .blur(radius: 5)
                     .frame(width: 396)
+            }
+            .overlay {
+                ShineBorderAnimation()
             }
             .rotationEffect(.degrees(animation ? -180 : 0))
             .offset(x: animation ? -400 : 0)
@@ -61,6 +71,9 @@ struct LaunchView: View {
                     .blur(radius: 5)
                     .frame(width: 395)
             }
+            .overlay {
+                ShineBorder()
+            }
             .rotationEffect(.degrees(animation ? 180 : 0))
             .offset(x: animation ? 400 : 0)
             .frame(width: animation ? -100 : 400)
@@ -69,4 +82,57 @@ struct LaunchView: View {
 
 #Preview {
     LaunchView()
+        .preferredColorScheme(.dark)
+}
+
+struct ShineBorderAnimation: View {
+    @State private var gradient: [Color]
+    @State private var startPoint = UnitPoint(x: 0, y: 0)
+    @State private var endPoint = UnitPoint(x: 0, y: 0)
+    
+    init(gradient: [Color] = [Color.blue.opacity(0.5), Color.blue.opacity(0.5), .clear]) {
+        self.gradient = gradient
+    }
+    
+    var body: some View {
+        VStack {
+            LogoTop()
+                .stroke(LinearGradient(gradient: Gradient(colors: gradient),
+                                       startPoint: self.startPoint,
+                                       endPoint: self.endPoint),
+                        lineWidth: 1)
+                .onAppear {
+                    withAnimation(.linear(duration: 0.5).repeatForever(autoreverses: true)) {
+                        self.startPoint = UnitPoint(x: 0, y: 0)
+                        self.endPoint = UnitPoint(x: 0, y: 1)
+                    }
+                }
+        }
+    }
+}
+
+struct ShineBorder: View {
+    @State private var gradient: [Color]
+    @State private var startPoint = UnitPoint(x: 0, y: 0)
+    @State private var endPoint = UnitPoint(x: 0, y: 0)
+    
+    init(gradient: [Color] = [Color.blue.opacity(0.5), Color.blue.opacity(0.5), .clear]) {
+        self.gradient = gradient
+    }
+    
+    var body: some View {
+        VStack {
+            LogoBottom()
+                .stroke(LinearGradient(gradient: Gradient(colors: gradient),
+                                       startPoint: self.startPoint,
+                                       endPoint: self.endPoint),
+                        lineWidth: 1)
+                .onAppear {
+                    withAnimation(.linear(duration: 0.5).repeatForever(autoreverses: true)) {
+                        self.startPoint = UnitPoint(x: 0, y: 0)
+                        self.endPoint = UnitPoint(x: 0, y: 1)
+                    }
+                }
+        }
+    }
 }

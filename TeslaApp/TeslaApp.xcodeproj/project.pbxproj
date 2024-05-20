@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		102D77A32BF2421C00D58E88 /* TeslaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D77A22BF2421C00D58E88 /* TeslaAppApp.swift */; };
-		102D77A52BF2421C00D58E88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D77A42BF2421C00D58E88 /* ContentView.swift */; };
+		1009254A2BF3ECDC007115BB /* NeymorfismUnSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100925492BF3ECDC007115BB /* NeymorfismUnSelected.swift */; };
+		1009254C2BF40097007115BB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1009254B2BF40097007115BB /* StartView.swift */; };
+		1009254E2BF4181C007115BB /* NeyromorfismCirculeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1009254D2BF4181C007115BB /* NeyromorfismCirculeButtonView.swift */; };
+		100925502BF41A58007115BB /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1009254F2BF41A58007115BB /* Extension+View.swift */; };
+		100925522BF4210D007115BB /* ClimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100925512BF4210D007115BB /* ClimateView.swift */; };
+		100925722BF521DF007115BB /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100925712BF521DF007115BB /* BottomSheetView.swift */; };
+		100925742BF52BBF007115BB /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100925732BF52BBF007115BB /* SliderView.swift */; };
+		100FDB7C2BF6371A000755DA /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100FDB7B2BF6371A000755DA /* TabBarShape.swift */; };
+		100FDB7F2BF6477F000755DA /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100FDB7E2BF6477F000755DA /* TabItem.swift */; };
+		100FDB822BF647E2000755DA /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100FDB812BF647E2000755DA /* TabBarView.swift */; };
+		100FDB862BF6A5EF000755DA /* CharchingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100FDB852BF6A5EF000755DA /* CharchingShape.swift */; };
+		100FDB882BF6A666000755DA /* CharchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100FDB872BF6A666000755DA /* CharchingView.swift */; };
+		102D77A32BF2421C00D58E88 /* TeslaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D77A22BF2421C00D58E88 /* TeslaApp.swift */; };
+		102D77A52BF2421C00D58E88 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D77A42BF2421C00D58E88 /* SettingView.swift */; };
 		102D77A72BF2421E00D58E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102D77A62BF2421E00D58E88 /* Assets.xcassets */; };
 		102D77AA2BF2421E00D58E88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102D77A92BF2421E00D58E88 /* Preview Assets.xcassets */; };
 		102D77B42BF2421E00D58E88 /* TeslaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D77B32BF2421E00D58E88 /* TeslaAppTests.swift */; };
@@ -16,6 +28,8 @@
 		102D77C02BF2421E00D58E88 /* TeslaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D77BF2BF2421E00D58E88 /* TeslaAppUITestsLaunchTests.swift */; };
 		106F80CD2BF2A6F0001ED4C5 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F80CC2BF2A6F0001ED4C5 /* LaunchView.swift */; };
 		106F80DE2BF36C57001ED4C5 /* CustomShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F80DD2BF36C57001ED4C5 /* CustomShapeView.swift */; };
+		106F80E12BF371D2001ED4C5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F80E02BF371D2001ED4C5 /* Constant.swift */; };
+		10AFACB22BF7FD3100D4F63C /* SliderCharching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AFACB12BF7FD3100D4F63C /* SliderCharching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		100925492BF3ECDC007115BB /* NeymorfismUnSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeymorfismUnSelected.swift; sourceTree = "<group>"; };
+		1009254B2BF40097007115BB /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		1009254D2BF4181C007115BB /* NeyromorfismCirculeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeyromorfismCirculeButtonView.swift; sourceTree = "<group>"; };
+		1009254F2BF41A58007115BB /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		100925512BF4210D007115BB /* ClimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateView.swift; sourceTree = "<group>"; };
+		100925712BF521DF007115BB /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		100925732BF52BBF007115BB /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		100FDB7B2BF6371A000755DA /* TabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
+		100FDB7E2BF6477F000755DA /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		100FDB812BF647E2000755DA /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		100FDB852BF6A5EF000755DA /* CharchingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharchingShape.swift; sourceTree = "<group>"; };
+		100FDB872BF6A666000755DA /* CharchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharchingView.swift; sourceTree = "<group>"; };
 		102D779F2BF2421C00D58E88 /* TeslaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeslaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		102D77A22BF2421C00D58E88 /* TeslaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaAppApp.swift; sourceTree = "<group>"; };
-		102D77A42BF2421C00D58E88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		102D77A22BF2421C00D58E88 /* TeslaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaApp.swift; sourceTree = "<group>"; };
+		102D77A42BF2421C00D58E88 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		102D77A62BF2421E00D58E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		102D77A92BF2421E00D58E88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		102D77AF2BF2421E00D58E88 /* TeslaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeslaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +74,8 @@
 		102D77BF2BF2421E00D58E88 /* TeslaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		106F80CC2BF2A6F0001ED4C5 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		106F80DD2BF36C57001ED4C5 /* CustomShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeView.swift; sourceTree = "<group>"; };
+		106F80E02BF371D2001ED4C5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		10AFACB12BF7FD3100D4F63C /* SliderCharching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCharching.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		100FDB802BF64782000755DA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				100FDB7E2BF6477F000755DA /* TabItem.swift */,
+				100FDB812BF647E2000755DA /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		102D77962BF2421C00D58E88 = {
 			isa = PBXGroup;
 			children = (
@@ -98,9 +135,15 @@
 		102D77A12BF2421C00D58E88 /* TeslaApp */ = {
 			isa = PBXGroup;
 			children = (
-				102D77A22BF2421C00D58E88 /* TeslaAppApp.swift */,
-				102D77A42BF2421C00D58E88 /* ContentView.swift */,
+				102D77A22BF2421C00D58E88 /* TeslaApp.swift */,
+				102D77A42BF2421C00D58E88 /* SettingView.swift */,
+				100925512BF4210D007115BB /* ClimateView.swift */,
+				100925492BF3ECDC007115BB /* NeymorfismUnSelected.swift */,
 				106F80CC2BF2A6F0001ED4C5 /* LaunchView.swift */,
+				106F80E02BF371D2001ED4C5 /* Constant.swift */,
+				1009254B2BF40097007115BB /* StartView.swift */,
+				100FDB872BF6A666000755DA /* CharchingView.swift */,
+				100FDB802BF64782000755DA /* TabBar */,
 				106F80DF2BF36C79001ED4C5 /* HelpView */,
 				102D77A62BF2421E00D58E88 /* Assets.xcassets */,
 				102D77A82BF2421E00D58E88 /* Preview Content */,
@@ -137,6 +180,13 @@
 			isa = PBXGroup;
 			children = (
 				106F80DD2BF36C57001ED4C5 /* CustomShapeView.swift */,
+				1009254D2BF4181C007115BB /* NeyromorfismCirculeButtonView.swift */,
+				1009254F2BF41A58007115BB /* Extension+View.swift */,
+				100925712BF521DF007115BB /* BottomSheetView.swift */,
+				100925732BF52BBF007115BB /* SliderView.swift */,
+				100FDB7B2BF6371A000755DA /* TabBarShape.swift */,
+				100FDB852BF6A5EF000755DA /* CharchingShape.swift */,
+				10AFACB12BF7FD3100D4F63C /* SliderCharching.swift */,
 			);
 			path = HelpView;
 			sourceTree = "<group>";
@@ -271,10 +321,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102D77A52BF2421C00D58E88 /* ContentView.swift in Sources */,
+				10AFACB22BF7FD3100D4F63C /* SliderCharching.swift in Sources */,
+				100FDB862BF6A5EF000755DA /* CharchingShape.swift in Sources */,
+				102D77A52BF2421C00D58E88 /* SettingView.swift in Sources */,
+				100925502BF41A58007115BB /* Extension+View.swift in Sources */,
+				100FDB882BF6A666000755DA /* CharchingView.swift in Sources */,
+				100925522BF4210D007115BB /* ClimateView.swift in Sources */,
 				106F80CD2BF2A6F0001ED4C5 /* LaunchView.swift in Sources */,
-				102D77A32BF2421C00D58E88 /* TeslaAppApp.swift in Sources */,
+				106F80E12BF371D2001ED4C5 /* Constant.swift in Sources */,
+				102D77A32BF2421C00D58E88 /* TeslaApp.swift in Sources */,
+				100925742BF52BBF007115BB /* SliderView.swift in Sources */,
+				1009254A2BF3ECDC007115BB /* NeymorfismUnSelected.swift in Sources */,
 				106F80DE2BF36C57001ED4C5 /* CustomShapeView.swift in Sources */,
+				100FDB7C2BF6371A000755DA /* TabBarShape.swift in Sources */,
+				100FDB7F2BF6477F000755DA /* TabItem.swift in Sources */,
+				100925722BF521DF007115BB /* BottomSheetView.swift in Sources */,
+				1009254E2BF4181C007115BB /* NeyromorfismCirculeButtonView.swift in Sources */,
+				100FDB822BF647E2000755DA /* TabBarView.swift in Sources */,
+				1009254C2BF40097007115BB /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
